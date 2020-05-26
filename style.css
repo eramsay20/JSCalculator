@@ -2,13 +2,6 @@
 
 h1 {
 color: red;
-
-}
-
-/* IDS */
-
-#add {
-    border: red 5px solid;
 }
 
 /* CLASSES */
@@ -16,8 +9,47 @@ color: red;
 .function {
 width: 10vw;
 height: 5vw;
+margin-top: 15px;
 background-color: #999;
 text-align: center;
-font-size: 30px;
-float: left;
-};
+font-size: 30px; 
+display: inline-block;
+}
+
+.display {
+    padding: 15px;
+    margin-top: 15px;
+    max-width: 40vw;
+    background-color:#999;
+    display: block;
+}
+
+/* IDS */
+
+#addOp {
+    border: red 5px solid;
+}
+#subtractOp {
+    border: blue 5px solid;
+}
+#multiplyOp {
+    border: orange 5px solid;
+}
+#divideOp {
+    border: green 5px solid;
+}
+
+#inputText1 {
+    padding: 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color: orange;
+    display: inline-block;
+}
+#inputText2 {
+    padding: 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color: orange;
+    display: inline-block;
+}
