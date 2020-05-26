@@ -38,18 +38,24 @@ display: inline-block;
 #divideOp {
     border: green 5px solid;
 }
+#powerOp {
+    border: purple 5px solid;
+}
+#sqrtOp {
+    border: pink 5px solid;
+}
 
 #inputText1 {
     padding: 15px;
     margin-top: 15px;
     margin-right: 5px;
-    background-color: orange;
+    background-color: yellow;
     display: inline-block;
 }
 #inputText2 {
     padding: 15px;
     margin-top: 15px;
     margin-right: 5px;
-    background-color: orange;
+    background-color: yellow;
     display: inline-block;
 }
